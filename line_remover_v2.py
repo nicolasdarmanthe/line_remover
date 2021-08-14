@@ -19,5 +19,6 @@ while True:
         time.sleep(0.1)
         mainString = pyperclip.paste()
         modString = ''
-        replaceMultiple(mainString,['\r\n','•','➢'],'')
+        replaceMultiple(mainString,['\r\n'],'')
+        replaceMultiple(modString,['◼','&'],' - ')
         pyperclip.copy(modString)    

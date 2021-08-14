@@ -7,5 +7,6 @@ while True:
         time.sleep(0.1)
         texttomod = pyperclip.paste()
         modtext = texttomod.replace('\r\n','')
-        #modtext = modtext.replace('•','\n')
+        modtext = modtext.replace('◦','\n')
+        modtext = modtext.replace('',' - ')
         pyperclip.copy(modtext)        
