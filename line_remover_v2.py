@@ -4,7 +4,7 @@ import time
 
 def replaceMultiple(mainString, toBeReplaced, newString):
     # Iterate over the strings to be replaced
-    global modString
+    #global modString
     modString = mainString
     for elem in toBeReplaced :
         # Check if string is in the main string
